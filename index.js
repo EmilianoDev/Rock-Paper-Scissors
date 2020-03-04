@@ -21,7 +21,7 @@ function playerPlay(){
 }
 function playRound(playerSelection,computerSelection){
     if(playerSelection===computerSelection){
-        return "It's a draw!";
+        return alert("It's a draw!");
     }
     let str = String(playerSelection + computerSelection);
     again=0;
