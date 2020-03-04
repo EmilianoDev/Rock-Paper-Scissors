@@ -44,7 +44,7 @@ function playRound(playerSelection,computerSelection){
         case "scissorspaper":
             player++;
             return alert("You win! Scissors beats Paper");
-        default: alert("Chose something valid you fool!");
+        default: alert("Choose something valid you adorable creature!");
             return again++;
     }
 }
